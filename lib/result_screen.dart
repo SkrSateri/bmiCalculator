@@ -28,11 +28,6 @@ class ResultScreen extends StatelessWidget {
     }
 
     return Scaffold(
-      appBar: AppBar(
-        title: Center(
-          child: Text("Result Screen"),
-        ),
-      ),
       body: Center(
         child: Column(
           children: [
