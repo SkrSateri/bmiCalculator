@@ -22,6 +22,7 @@ class _UserInputPageState extends State<UserInputPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        backgroundColor: Colors.red,
         title: Center(
           child: Text("BMI Calculator", textAlign: TextAlign.center),
         ),
